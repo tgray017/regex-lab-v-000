@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
- word.downcase.match(/\A[aeiou]/)
+ return true if word.downcase.match(/\A[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
