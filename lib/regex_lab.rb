@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
- return true if word.downcase.match(/\A[aeiou]/)
+ return true if word.downcase.match(/\b[aeiou]/)
  else return false
 end
 
